@@ -1,2 +1,2 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<CatapultProject Version="1" xml:lang="en-us" MasterStylesheet="/Content/Resources/Stylesheets/ipswitch_styles.css" PreviewConditionalExpression="exclude[Primary.Pro] " />
+<CatapultProject Version="1" xml:lang="en-us" MasterStylesheet="/Content/Resources/Stylesheets/ipswitch_styles.css" PreviewConditionalExpression="exclude[Primary.Pro] " SourceControlProviderType="Git" ProjectGuid="2a5c6060-4d6e-4094-87d3-951efb0e89c8" SourceControlBound="true" />
