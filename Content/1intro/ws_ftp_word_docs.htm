@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/ws_ftp_word_docs.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 class="Heading1">About Firewalls</h1>
+        <p>Some organizations separate their local networks from the rest of the Internet by installing a "firewall" or "gateway." A firewall is a system or software which is configured to prevent particular types of access/information from entering the network. Most firewalls block the flow into the local area network, but allow individuals to access most resources outside of the network.</p>
+        <p>Firewalls can be implemented in both hardware and software, or a combination of both. Firewalls are frequently used to prevent unauthorized Internet users from accessing private networks connected to the Internet, especially intranets. All messages entering or leaving the intranet pass through the firewall, which examines each message and blocks those that do not meet the specified security criteria.</p>
+        <p>
+            <img src="../Resources/Images/ws_ftp_word_docs/About Firewalls.png" style="height: 190px;width: 356px;" class="img_1" />
+        </p>
+        <h2 class="Heading2">Types of Firewalls</h2>
+        <p>There are several types of firewall techniques:</p>
+        <table class="table_1">
+            <col style="width: 108pt;" />
+            <col style="width: 324pt;" />
+            <thead>
+                <tr>
+                    <th class="th_1">
+                        <p class="TableHead">Type</p>
+                    </th>
+                    <th class="th_2">
+                        <p class="TableHead">Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="td_1">
+                        <p class="TableText">Packet filters</p>
+                    </td>
+                    <td class="td_2">
+                        <p class="TableText">Looks at each packet entering or leaving the network and accepts or rejects it based on user-defined rules. Packet filtering is fairly effective and transparent to users, but it is difficult to configure. In addition, it is susceptible to IP spoofing.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="TableText">Application gateways</p>
+                    </td>
+                    <td class="td_2">
+                        <p class="TableText">Applies security mechanisms to specific applications, such as FTP and Telnet servers. This is very effective, but can impose a performance degradation.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="TableText">Circuit-level gateways</p>
+                    </td>
+                    <td class="td_2">
+                        <p class="TableText">Applies security mechanisms when a TCP or UDP connection is established. Once the connection has been made, packets can flow between the hosts without further checking.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="TableText">Proxy servers</p>
+                    </td>
+                    <td class="td_2">
+                        <p class="TableText">Intercepts all messages entering and leaving the network. The proxy server effectively hides the true network addresses.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h3 class="Heading3">Packet Filters</h3>
+        <p>Packet filters operate at a relatively low level of the TCP/IP protocol stack, not allowing packets to pass through the firewall unless they match the established rule set. The firewall administrator may define the rules; or default rules may apply. The term "packet filter" originated in the context of BSD operating systems.</p>
+        <p>Packet filters generally fall into two sub-categories, stateful and stateless. Stateful firewalls maintain context about active sessions, and use that "state information" to speed packet processing. Any existing network connection can be described by several properties, including source and destination IP address, UDP or TCP ports, and the current stage of the connection's lifetime (including session initiation, handshaking, data transfer, or completion connection). If a packet does not match an existing connection, it will be evaluated according to the ruleset for new connections. If a packet matches an existing connection based on comparison with the firewall's state table, it will be allowed to pass without further processing.</p>
+        <p>Stateless firewalls require less memory, and can be faster for simple filters that require less time to filter than to look up a session. They may also be necessary for filtering stateless network protocols that have no concept of a session. However, they cannot make more complex decisions based on what stage communications between hosts have reached.</p>
+        <p>Modern firewalls can filter traffic based on many packet attributes like source IP address, source port, destination IP address or port, destination service like WWW or FTP. They can filter based on protocols, TTL values, netblock of originator, domain name of the source, and many other attributes.</p>
+        <h3 class="Heading3">Application Gateways</h3>
+        <p>Application-layer firewalls work on the application level of the TCP/IP stack (i.e., all browser traffic, or all telnet or ftp traffic), and may intercept all packets traveling to or from an application. They block other packets (usually dropping them without acknowledgment to the sender). In principle, application firewalls can prevent all unwanted outside traffic from reaching protected machines.</p>
+        <p>On inspecting all packets for improper content, firewalls can restrict or prevent outright the spread of networked computer worms and trojans. In practice, however, this becomes so complex and so difficult to attempt (given the variety of applications and the diversity of content each may allow in its packet traffic) that comprehensive firewall design does not generally attempt this approach.</p>
+        <p>The XML firewall exemplifies a more recent kind of application-layer firewall.</p>
+        <h3 class="Heading3">Circuit-level Gateways</h3>
+        <p>Circuit level gateways work at the session layer of the OSI model, or as a "shim-layer" between the application layer and the transport layer of the TCP/IP stack. They monitor TCP handshaking between packets to determine whether a requested session is legitimate. Information passed to a remote computer through a circuit level gateway appears to have originated from the gateway. This is useful for hiding information about protected networks. Circuit level gateways are relatively inexpensive and have the advantage of hiding information about the private network they protect. On the other hand, they do not filter individual packets.</p>
+        <h3 class="Heading3">Proxy Servers</h3>
+        <p>A proxy device (running either on dedicated hardware or as software on a general-purpose machine) may act as a firewall by responding to input packets (connection requests, for example) in the manner of an application, whilst blocking other packets.</p>
+        <p>Proxies make tampering with an internal system from the external network more difficult and misuse of one internal system would not necessarily cause a security breach exploitable from outside the firewall (as long as the application proxy remains intact and properly configured). Conversely, intruders may hijack a publicly-reachable system and use it as a proxy for their own purposes; the proxy then masquerades as that system to other internal machines. While use of internal address spaces enhances security, crackers may still employ methods such as IP spoofing to attempt to pass packets to a target network.</p>
+        <h2 class="Heading2">Basic Firewall Rules</h2>
+        <p>Examples using a subnet address of 10.10.10.x and 255.255.255.0 as the subnet mask for the local area network (LAN).</p>
+        <p>Firewall rule that allows all traffic out:</p>
+        <p class="Examples">Direction Protocol Source Address Source Port Destination Address Destination Port Action Out Tcp/Udp 10.10.10.0 Any Any Any Allow</p>
+        <p>Firewall rule for SMTP (default port 25):</p>
+        <p class="Examples">Direction Protocol Source Address Source Port Destination Address Destination Port Action Out Tcp Any Any 10.10.10.6 25 Allow</p>
+        <p>This rule allows packets to access the local SMTP Gateway using the IP address 10.10.10.6. </p>
+        <p>If a policy does not <span class="span_1">explicitly allow</span> a request for service, that service should be denied by this catch-all rule:</p>
+        <p class="Examples">Direction Protocol Source Address Source Port Destination Address Destination Port Action In/Out Tcp/Udp Any Any Any Any Deny</p>
+        <p>This rule should be the last in the list of rules.</p>
+        <h2 class="Heading2">Multiple Firewalls</h2>
+        <p>There are several reasons you might want to create more than one firewall configuration. If you use a laptop computer in different locations that have different firewalls, you will want to set up a firewall configuration for each location, so you can switch to the appropriate firewall configuration when you are in each location. </p>
+        <p>Another reason you might want to set up multiple firewall configurations is that your network could have more than one router configured as a firewall. In this case, you would assign a different firewall configuration to an FTP site depending on which part of the network you are working from.</p>
+        <p>Furthermore, you might have a number of "trusted sites" (for example, FTP sites set up by your own company) for which you would use a different firewall (or no firewall).</p>
+        <h2 class="Heading2">Firewall Pinholes</h2>
+        <p>A firewall pinhole is used to describe a port that is opened through a firewall to allow a particular application to gain controlled access to the protected network.</p>
+        <p>Leaving open gaps in a firewall exposes the protected system to malicious abuse. Obviously, a fully closed firewall would prevent applications from accessing information on the other side of the firewall. Thus, it is necessary to carefully open holes in firewalls that are very small and restricted (hence the term pinhole). For best protection, the mechanism for opening the pinhole in the firewall must implement some form of validation and security that will protect the system behind the firewall.</p>
+        <p>For firewalls performing a network address translation (NAT) function, the mapping between the {external address, external port} tuple and the {internal address, internal port} tuple is often called a pinhole.</p>
+        <p>Pinholes can be created manually or programmatically. They can be temporary (created dynamically for a specific duration such as for a dynamic connection) or permanent (such as for signalling functions).</p>
+        <p>Firewalls sometimes automatically close pinholes after a period of time (typically a few minutes) to minimize the security exposure. Applications that require a pinhole to be kept open often need to generate artificial traffic through the pinhole in order to cause the firewall to restart its timer.</p>
+    </body>
+</html>

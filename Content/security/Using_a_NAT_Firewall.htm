@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:id="Using a NAT Firewall" MadCap:timeEstimate="0" MadCap:priority="0" MadCap:status="Complete">
+    <head><title>Using a NAT Firewall</title>
+        <link rel="StyleSheet" href="../Resources/Stylesheets/styles.css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="nat firewall" />Using a NAT Firewall</h1>
+        <p>When using a NAT (Network Address Translation) firewall, you may encounter 
+ problems when trying to use SSL encryption. To 
+ fix this, you should configure WS_FTP and the firewall to allow incoming 
+ connection to your PC. Pro needs to tell the server 
+ to connect to the external IP address, and the firewall should forward 
+ these incoming connection to your PC. You should 
+ also limit the number of ports that the firewall open for these connections. 
+ In many cases, this will allow you to use SSL through 
+ a NAT firewall.&#160;&#160;&#160;&#160;</p>
+        <h2>To configure SSL through a NAT Firewall:</h2>
+        <ol style="list-style: decimal;list-style-type: decimal;">
+            <li class="p-Topic-Text-Numbered">
+                <p class="Topic-Text-Numbered">From the 
+ <span style="font-weight: bold;">Program</span> <![CDATA[ ]]><![CDATA[ ]]><span style="font-weight: bold;">Options</span>, 
+ select the <span style="font-weight: bold;">SSL</span> dialog.</p>
+            </li>
+            <li class="p-Topic-Text-Numbered">
+                <p class="Topic-Text-Numbered">Select 
+ the <span style="font-weight: bold;">Force PORT IP Address</span> dialog.</p>
+            </li>
+            <li class="p-Topic-Text-Numbered">
+                <p class="Topic-Text-Numbered">Enter 
+ the IP Address of the NAT firewall.</p>
+            </li>
+            <li class="p-Topic-Text-Numbered">
+                <p class="Topic-Text-Numbered">Select 
+ the<span style="font-weight: bold;"> Limit Port Range</span> option.</p>
+            </li>
+            <li class="p-Topic-Text-Numbered">
+                <p class="Topic-Text-Numbered">Enter 
+ the <span style="font-weight: bold;">Minimum</span> and <span style="font-weight: bold;">Maximum</span> 
+ port range.</p>
+            </li>
+            <li class="p-Topic-Text-Numbered">
+                <p class="Topic-Text-Numbered">Click 
+ <span style="font-weight: bold;">OK.</span></p>
+            </li>
+        </ol>
+    </body>
+</html>

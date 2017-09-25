@@ -1,0 +1,715 @@
+﻿/*<meta />*/
+
+p
+{
+	font-family: Arial;
+	font-size: 8.0pt;
+	margin-left: 5.75pt;
+	margin-right: 6.5pt;
+	margin-top: 4.0pt;
+	margin-bottom: 0.0pt;
+}
+
+li.p
+{
+	font-family: Arial;
+	font-size: 8.0pt;
+}
+
+h1
+{
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 10.0pt;
+	margin-left: 5.75pt;
+	margin-right: 6.5pt;
+	margin-top: 12.0pt;
+	margin-bottom: 4.0pt;
+}
+
+li.h1
+{
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 10.0pt;
+}
+
+h2
+{
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 8.0pt;
+	margin-left: 5.75pt;
+	margin-right: 6.5pt;
+	margin-top: 12.0pt;
+	margin-bottom: 4.0pt;
+}
+
+li.h2
+{
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 8.0pt;
+}
+
+h3
+{
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 8.0pt;
+	margin-left: 5.75pt;
+	margin-right: 6.5pt;
+	margin-top: 12.0pt;
+	margin-bottom: 12.0pt;
+}
+
+li.h3
+{
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 8.0pt;
+}
+
+h4
+{
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 8.0pt;
+	margin-left: 5.75pt;
+	margin-right: 6.5pt;
+	margin-top: 6.0pt;
+	margin-bottom: 2.0pt;
+}
+
+li.h4
+{
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 8.0pt;
+}
+
+h5
+{
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 8.0pt;
+	margin-left: 5.75pt;
+	margin-right: 6.5pt;
+	margin-top: 6.0pt;
+	margin-bottom: 2.0pt;
+}
+
+li.h5
+{
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 8.0pt;
+}
+
+h6
+{
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 8.0pt;
+	margin-left: 5.75pt;
+	margin-right: 6.5pt;
+	margin-top: 6.0pt;
+	margin-bottom: 2.0pt;
+}
+
+li.h6
+{
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 8.0pt;
+}
+
+h6.Heading7
+{
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 8.0pt;
+	margin-left: 5.75pt;
+	margin-right: 6.5pt;
+	margin-top: 6.0pt;
+	margin-bottom: 2.0pt;
+}
+
+li.H6-Heading7
+{
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 8.0pt;
+}
+
+h6.Heading8
+{
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 8.0pt;
+	margin-left: 5.75pt;
+	margin-right: 6.5pt;
+	margin-top: 6.0pt;
+	margin-bottom: 2.0pt;
+}
+
+li.H6-Heading8
+{
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 8.0pt;
+}
+
+h6.Heading9
+{
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 8.0pt;
+	margin-left: 5.75pt;
+	margin-right: 6.5pt;
+	margin-top: 6.0pt;
+	margin-bottom: 2.0pt;
+}
+
+li.H6-Heading9
+{
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 8.0pt;
+}
+
+p.Topic-Text-Bull2
+{
+	font-family: Arial;
+	font-size: 8.0pt;
+	text-indent: 0.0;
+	list-style-type: disc;
+	margin-left: 2.0pt;
+	margin-right: 6.5pt;
+	margin-top: 4.0pt;
+	margin-bottom: 0.0pt;
+}
+
+li.P-Topic-Text-Bull2
+{
+	font-family: Arial;
+	font-size: 8.0pt;
+	text-indent: 0.0;
+	list-style-type: disc;
+}
+
+p.footnote-text
+{
+	font-family: Arial;
+	font-size: 10.0pt;
+	margin-left: 5.75pt;
+	margin-right: 6.5pt;
+	margin-top: 4.0pt;
+	margin-bottom: 0.0pt;
+}
+
+li.P-footnote-text
+{
+	font-family: Arial;
+	font-size: 10.0pt;
+}
+
+p.Normal-Indent
+{
+	font-family: Arial;
+	font-size: 8.0pt;
+	margin-left: 0.0pt;
+	margin-right: 6.5pt;
+	margin-top: 4.0pt;
+	margin-bottom: 0.0pt;
+}
+
+li.P-Normal-Indent
+{
+	font-family: Arial;
+	font-size: 8.0pt;
+}
+
+p.Tip-Note-Heading
+{
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 8.0pt;
+	margin-left: 5.75pt;
+	margin-right: 6.5pt;
+	margin-top: 6.0pt;
+	margin-bottom: 0.0pt;
+}
+
+li.P-Tip-Note-Heading
+{
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 8.0pt;
+}
+
+p.Tip-Note-Text
+{
+	font-family: Arial;
+	font-size: 8.0pt;
+	background-color: #00ffff;
+	margin-left: -3.5pt;
+	margin-right: 6.5pt;
+	margin-top: 4.0pt;
+	margin-bottom: 0.0pt;
+}
+
+li.P-Tip-Note-Text
+{
+	font-family: Arial;
+	font-size: 8.0pt;
+}
+
+p.Tip-Note-Text-Bulleted
+{
+	font-family: Arial;
+	font-size: 8.0pt;
+	text-indent: 0.0pt;
+	margin-left: -3.5pt;
+	margin-right: 6.5pt;
+	margin-top: 4.0pt;
+	margin-bottom: 0.0pt;
+}
+
+li.P-Tip-Note-Text-Bulleted
+{
+	font-family: Arial;
+	font-size: 8.0pt;
+	text-indent: 0.0pt;
+}
+
+p.Topic-Text-Bulleted
+{
+	font-family: Arial;
+	font-size: 8.0pt;
+	text-align: left;
+	text-indent: 0.0pt;
+	list-style-type: square;
+	list-style-position: outside;
+	margin-left: -3.5pt;
+	margin-right: 6.5pt;
+	margin-top: 4.0pt;
+	margin-bottom: 0.0pt;
+}
+
+li.P-Topic-Text-Bulleted
+{
+	font-family: Arial;
+	font-size: 8.0pt;
+	text-align: left;
+	text-indent: 0.0pt;
+	list-style-type: square;
+	list-style-position: outside;
+}
+
+p.Topic-Text-Indent
+{
+	font-family: Arial;
+	font-size: 8.0pt;
+	margin-left: 6.0pt;
+	margin-right: 6.5pt;
+	margin-top: 4.0pt;
+	margin-bottom: 0.0pt;
+}
+
+li.P-Topic-Text-Indent
+{
+	font-family: Arial;
+	font-size: 8.0pt;
+}
+
+p.Topic-Text-Numbered
+{
+	font-family: Arial;
+	font-size: 8.0pt;
+	text-indent: 0.0pt;
+	margin-left: -3.5pt;
+	margin-right: 6.5pt;
+	margin-top: 4.0pt;
+	margin-bottom: 0.0pt;
+}
+
+li.P-Topic-Text-Numbered
+{
+	font-family: Arial;
+	font-size: 8.0pt;
+	text-indent: 0.0pt;
+}
+
+p.Topic-Text-Onestep
+{
+	font-family: Arial;
+	font-size: 8.0pt;
+	text-indent: 0.0pt;
+	margin-left: 0.0pt;
+	margin-right: 6.5pt;
+	margin-top: 4.0pt;
+	margin-bottom: 0.0pt;
+}
+
+li.P-Topic-Text-Onestep
+{
+	font-family: Arial;
+	font-size: 8.0pt;
+	text-indent: 0.0pt;
+}
+
+p.List-Bullet-2
+{
+	font-family: Arial;
+	font-size: 8.0pt;
+	margin-left: 0.0pt;
+	margin-right: 6.5pt;
+	margin-top: 4.0pt;
+	margin-bottom: 0.0pt;
+}
+
+li.P-List-Bullet-2
+{
+	font-family: Arial;
+	font-size: 8.0pt;
+}
+
+p.footer
+{
+	font-family: Arial;
+	font-size: 8.0pt;
+	margin-left: 5.75pt;
+	margin-right: 6.5pt;
+	margin-top: 4.0pt;
+	margin-bottom: 0.0pt;
+}
+
+li.P-footer
+{
+	font-family: Arial;
+	font-size: 8.0pt;
+}
+
+p.header
+{
+	font-family: Arial;
+	font-size: 8.0pt;
+	margin-left: 5.75pt;
+	margin-right: 6.5pt;
+	margin-top: 4.0pt;
+	margin-bottom: 0.0pt;
+}
+
+li.P-header
+{
+	font-family: Arial;
+	font-size: 8.0pt;
+}
+
+p.Block-Text
+{
+	font-family: Arial;
+	font-size: 8.0pt;
+	color: #000000;
+	margin-left: 5.75pt;
+	margin-right: 6.5pt;
+	margin-top: 4.0pt;
+	margin-bottom: 0.0pt;
+}
+
+li.P-Block-Text
+{
+	font-family: Arial;
+	font-size: 8.0pt;
+	color: #000000;
+}
+
+p.Courier2
+{
+	font-family: Courier;
+	font-size: 8.0pt;
+	margin-top: 0.0pt;
+	margin-bottom: 2.0pt;
+}
+
+li.P-Courier2
+{
+	font-family: Courier;
+	font-size: 8.0pt;
+}
+
+p.User-Input
+{
+	font-family: "Courier New";
+	font-size: 8.0pt;
+	margin-left: 5.75pt;
+	margin-right: 6.5pt;
+	margin-top: 0.0pt;
+	margin-bottom: 2.4pt;
+}
+
+li.P-User-Input
+{
+	font-family: "Courier New";
+	font-size: 8.0pt;
+}
+
+p.Plain-Text
+{
+	font-family: "Courier New";
+	font-size: 10.0pt;
+	margin-top: 0.0pt;
+	margin-bottom: 0.0pt;
+}
+
+li.P-Plain-Text
+{
+	font-family: "Courier New";
+	font-size: 10.0pt;
+}
+
+.Heading7
+{
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 8.0pt;
+	margin-left: 5.75pt;
+	margin-right: 6.5pt;
+	margin-top: 6.0pt;
+	margin-bottom: 2.0pt;
+}
+
+.Heading8
+{
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 8.0pt;
+	margin-left: 5.75pt;
+	margin-right: 6.5pt;
+	margin-top: 6.0pt;
+	margin-bottom: 2.0pt;
+}
+
+.Heading9
+{
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 8.0pt;
+	margin-left: 5.75pt;
+	margin-right: 6.5pt;
+	margin-top: 6.0pt;
+	margin-bottom: 2.0pt;
+}
+
+.Normal-Indent
+{
+	font-family: Arial;
+	font-size: 8.0pt;
+	margin-left: 36.0pt;
+	margin-right: 6.5pt;
+	margin-top: 4.0pt;
+	margin-bottom: 0.0pt;
+}
+
+.Tip-Note-Heading
+{
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 8.0pt;
+	margin-left: 5.75pt;
+	margin-right: 6.5pt;
+	margin-top: 6.0pt;
+	margin-bottom: 0.0pt;
+}
+
+.Tip-Note-Text
+{
+	font-family: Arial;
+	font-size: 8.0pt;
+	margin-left: 15.1pt;
+	margin-right: 6.5pt;
+	margin-top: 4.0pt;
+	margin-bottom: 0.0pt;
+}
+
+.Tip-Note-Text-Bulleted
+{
+	font-family: Arial;
+	font-size: 8.0pt;
+	text-indent: 0.0pt;
+	margin-left: 15.1pt;
+	margin-right: 6.5pt;
+	margin-top: 4.0pt;
+	margin-bottom: 0.0pt;
+}
+
+.Topic-Text-Bulleted
+{
+	font-family: Arial;
+	font-size: 8.0pt;
+	text-indent: 0.0pt;
+	margin-left: 15.1pt;
+	margin-right: 6.5pt;
+	margin-top: 4.0pt;
+	margin-bottom: 0.0pt;
+}
+
+.Topic-Text-Indent
+{
+	font-family: Arial;
+	font-size: 8.0pt;
+	margin-left: 15.1pt;
+	margin-right: 6.5pt;
+	margin-top: 4.0pt;
+	margin-bottom: 0.0pt;
+}
+
+.Topic-Text-Numbered
+{
+	font-family: Arial;
+	font-size: 8.0pt;
+	text-indent: 0.0pt;
+	margin-left: 15.1pt;
+	margin-right: 6.5pt;
+	margin-top: 4.0pt;
+	margin-bottom: 0.0pt;
+}
+
+.Topic-Text-Onestep
+{
+	font-family: Arial;
+	font-size: 8.0pt;
+	text-indent: 0.0pt;
+	margin-left: 15.1pt;
+	margin-right: 6.5pt;
+	margin-top: 4.0pt;
+	margin-bottom: 0.0pt;
+}
+
+.footnote-text
+{
+	font-family: Arial;
+	font-size: 10.0pt;
+	margin-left: 5.75pt;
+	margin-right: 6.5pt;
+	margin-top: 4.0pt;
+	margin-bottom: 0.0pt;
+}
+
+.footer
+{
+	font-family: Arial;
+	font-size: 8.0pt;
+	margin-left: 5.75pt;
+	margin-right: 6.5pt;
+	margin-top: 4.0pt;
+	margin-bottom: 0.0pt;
+}
+
+body
+{
+	font-family: Arial;
+	font-size: 8.0pt;
+	background-color: #ffffff;
+}
+
+a:visited
+{
+	color: #000080;
+}
+
+p.normallist
+{
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 8.0pt;
+	color: #000000;
+	margin-left: 16.0pt;
+}
+
+li.P-normallist
+{
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 8.0pt;
+	color: #000000;
+}
+
+a.expandspot
+{
+	cursor: hand;
+	color: #008000;
+	font-style: normal;
+}
+
+span.expandtext
+{
+	color: #ff0000;
+	font-weight: normal;
+	font-style: italic;
+}
+
+a.dropspot
+{
+	font-style: italic;
+	cursor: hand;
+	color: #008000;
+}
+
+a.glossterm
+{
+	cursor: hand;
+	color: #800000;
+	font-style: normal;
+}
+
+span.glosstext
+{
+	color: #0000ff;
+	font-weight: normal;
+	font-style: italic;
+}
+
+MadCap|relatedTopics.relatedTopics_1
+{
+	font-size: 8pt;
+	font-family: Arial;
+	mc-label: ' Related Topics';
+}
+
+MadCap|expandingHead.expandspot
+{
+	cursor: hand;
+	color: #008000;
+	font-style: normal;
+}
+
+MadCap|dropDownHotspot.dropspot
+{
+	font-style: italic;
+	cursor: hand;
+	color: #008000;
+}
+
+MadCap|expandingBody.expandtext
+{
+	color: #ff0000;
+	font-weight: normal;
+	font-style: italic;
+}
+
+MadCap|glossaryTerm.glossterm
+{
+	cursor: hand;
+	color: #800000;
+	font-style: normal;
+}
+
+MadCap|expandingBody.glossterm
+{
+	color: #0000ff;
+	font-weight: normal;
+	font-style: italic;
+}
+

@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Feature Comparison"
+    Link="/Content/feature_comparison.htm" />
+  <TocEntry
+    Title="Overview">
+    <TocEntry
+      Title="What is WS_FTP?"
+      Link="/Content/1intro/what_is_ws_ftp.htm" />
+    <TocEntry
+      Title="WS_FTP Features"
+      Link="/Content/1intro/ws_ftp_features.htm" />
+    <TocEntry
+      Title="WS_FTP Overview"
+      Link="/Content/1intro/intro.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+    <TocEntry
+      Title="Find Utility Overview"
+      Link="/Content/1intro/ws_ftp_find.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/1intro/download_patches.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/1intro/contacting_ipswitch.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  </TocEntry>
+  <TocEntry
+    Title="Getting Started"
+    Link="/Content/2getstarted/overview_connecting.htm">
+    <TocEntry
+      Title="Overview"
+      Link="/Content/2getstarted/overview_connecting.htm" />
+    <TocEntry
+      Title="Configuring a new FTP site"
+      Link="/Content/2getstarted/configuring_a_new_ftp_site.htm" />
+    <TocEntry
+      Title="Where do I get a Username and Password?"
+      Link="/Content/2getstarted/where_do_I_get_a_username_and_password_.htm" />
+    <TocEntry
+      Title="Changing the host type"
+      Link="/Content/2getstarted/changing_the_host_type.htm" />
+    <TocEntry
+      Title="Changing the host name or address"
+      Link="/Content/2getstarted/changing_the_host_name_or_address.htm" />
+    <TocEntry
+      Title="Changing the name of a site configuration"
+      Link="/Content/2getstarted/changing_the_name_of_a_site_configuration.htm" />
+    <TocEntry
+      Title="Setting the remote port"
+      Link="/Content/2getstarted/setting_the_remote_port.htm" />
+    <TocEntry
+      Title="Creating a new folder for site configurations"
+      Link="/Content/2getstarted/creating_a_new_folder_for_site_configurations.htm" />
+    <TocEntry
+      Title="Connecting to Default Site"
+      Link="/Content/2getstarted/connecting_to_default_site.htm" />
+    <TocEntry
+      Title="Connect using the Sites Menu"
+      Link="/Content/2getstarted/Connect_using_the_Sites_Menu.htm" />
+    <TocEntry
+      Title="Logging on with a User ID, password, or account"
+      Link="/Content/2getstarted/logging_on_with_a_user_id_password_or_account.htm" />
+    <TocEntry
+      Title="Hiding or Customizing Toolbar Buttons"
+      Link="/Content/2getstarted/hiding_or_customizing_toolbar_buttons.htm" />
+    <TocEntry
+      Title="Configuring Active Edit"
+      Link="/Content/2getstarted/configuring_active_edit.htm" />
+    <TocEntry
+      Title="Using Active Edit"
+      Link="/Content/2getstarted/using_active_edit.htm" />
+    <TocEntry
+      Title="Disconnecting from a site"
+      Link="/Content/2getstarted/disconnecting_from_a_site.htm" />
+    <TocEntry
+      Title="Recently Visited Sites"
+      Link="/Content/2getstarted/recently_visited_sites.htm" />
+    <TocEntry
+      Title="Selecting a configured site"
+      Link="/Content/2getstarted/selecting_a_configured_site.htm" />
+    <TocEntry
+      Title="Selecting a Default Site"
+      Link="/Content/2getstarted/selecting_a_default_site.htm" />
+    <TocEntry
+      Title="Automatic Reconnect"
+      Link="/Content/2getstarted/automatic_reconnect.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Navigation"
+    Link="/Content/3navigation/navigation_tips.htm">
+    <TocEntry
+      Title="Navigation Tips"
+      Link="/Content/3navigation/navigation_tips.htm" />
+    <TocEntry
+      Title="Changing the current drive"
+      Link="/Content/3navigation/changing_the_current_drive.htm" />
+    <TocEntry
+      Title="Changing the current folder"
+      Link="/Content/3navigation/changing_the_current_folder.htm" />
+    <TocEntry
+      Title="Finding files and folders"
+      Link="/Content/3navigation/finding_files_and_folders.htm" />
+    <TocEntry
+      Title="Masking the display of files and folders"
+      Link="/Content/3navigation/masking_the_display_of_files.htm" />
+    <TocEntry
+      Title="Sorting files and folders"
+      Link="/Content/3navigation/sorting_files_and_folders.htm" />
+    <TocEntry
+      Title="Starting the Find Utility"
+      Link="/Content/starting_the_find_utility.htm" />
+    <TocEntry
+      Title="Starting the Scheduler Utility"
+      Link="/Content/starting_the_scheduler_utility.htm" />
+    <TocEntry
+      Title="Starting the Script Utility"
+      Link="/Content/starting_the_script_utility.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Transferring Files"
+    Link="/Content/4transfers/transferring_files_or_folders.htm">
+    <TocEntry
+      Title="Transferring files or folders"
+      Link="/Content/4transfers/transferring_files_or_folders.htm" />
+    <TocEntry
+      Title="Working with transfer modes"
+      Link="/Content/4transfers/working_with_transfer_modes.htm" />
+    <TocEntry
+      Title="Specifying the Startup Transfer Mode"
+      Link="/Content/4transfers/specifying_the_startup_transfer_mode.htm" />
+    <TocEntry
+      Title="Extension Conversion Rules"
+      Link="/Content/conversion_rules.htm" />
+    <TocEntry
+      Title="Dragging and dropping"
+      Link="/Content/4transfers/dragging_and_dropping.htm" />
+    <TocEntry
+      Title="Speeding Up Large Transfers (Multipart Transfers)"
+      Link="/Content/4transfers/multipart_transfers.htm" />
+    <TocEntry
+      Title="Resuming a transfer when the application starts"
+      Link="/Content/4transfers/resuming_a_transfer_when_the_application_starts.htm" />
+    <TocEntry
+      Title="Automatically retrying a failed transfer"
+      Link="/Content/4transfers/setting_the_automatic_retry.htm" />
+    <TocEntry
+      Title="Appending files"
+      Link="/Content/4transfers/appending_files.htm" />
+    <TocEntry
+      Title="Logging Overview"
+      Link="/Content/4transfers/logging_overview.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Naming Files and Folders"
+    Link="/Content/5filesandfolders/getting_prompted_for_path_and_file_name.htm">
+    <TocEntry
+      Title="Getting prompted for path and file name"
+      Link="/Content/5filesandfolders/getting_prompted_for_path_and_file_name.htm" />
+    <TocEntry
+      Title="Changing the permissions for UNIX files"
+      Link="/Content/5filesandfolders/changing_the_permissions_for_unix_files.htm" />
+    <TocEntry
+      Title="Having the FTP Site Assign the File Name"
+      Link="/Content/5filesandfolders/having_the_ftp_site_assign_the_file_name.htm" />
+    <TocEntry
+      Title="Having WS_FTP Assign the File Name"
+      Link="/Content/5filesandfolders/having_ws_ftp_pro_assign_the_file_name.htm" />
+    <TocEntry
+      Title="Renaming a file as you transfer it"
+      Link="/Content/5filesandfolders/renaming_a_file_as_you_transfer_it.htm" />
+    <TocEntry
+      Title="Renaming a file before or after transfer"
+      Link="/Content/5filesandfolders/renaming_a_file_before_or_after_transfer.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Setting Security Options"
+    Link="/Content/security/firewall_properties.htm"
+    conditions="Primary.Pro">
+    <TocEntry
+      Title="Firewall Properties"
+      Link="/Content/security/firewall_properties.htm" />
+    <TocEntry
+      Title="SSL vs. SSH"
+      Link="/Content/security/SSL_vs._SSH.htm" />
+    <TocEntry
+      Title="How to make an SSL connection"
+      Link="/Content/security/how_to_make_an_ssl_connection.htm" />
+    <TocEntry
+      Title="Using SSH"
+      Link="/Content/security/SSH/What_is_SSH_.htm">
+      <TocEntry
+        Title="What is SSH?"
+        Link="/Content/security/SSH/What_is_SSH_.htm" />
+      <TocEntry
+        Title="Importing SSH Keys"
+        Link="/Content/security/SSH/Importing_an_SSH_Key.htm" />
+      <TocEntry
+        Title="Generating an SSH Key Pair"
+        Link="/Content/security/SSH/Generating_an_SSH_Key_Pair.htm" />
+      <TocEntry
+        Title="Exporting an SSH Key"
+        Link="/Content/security/SSH/Exporting_an_SSH_Key.htm" />
+      <TocEntry
+        Title="Making an SSH connection"
+        Link="/Content/security/SSH/How_to_make_an_SSH_connection.htm" />
+      <TocEntry
+        Title="SSH Trusted Hosts"
+        Link="/Content/security/SSH/SSH_Trusted_Hosts.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Using PGP Mode"
+      Link="/Content/security/PGP_Mode/PGP_Overview.htm">
+      <TocEntry
+        Title="What is PGP?"
+        Link="/Content/security/PGP_Mode/PGP_Overview.htm" />
+      <TocEntry
+        Title="PGP Mode"
+        Link="/Content/security/PGP_Mode/PGP_Mode.htm" />
+      <TocEntry
+        Title="Importing PGP Keys"
+        Link="/Content/security/PGP_Mode/Importing_PGP_Keys.htm" />
+      <TocEntry
+        Title="Generating a PGP Key Pair"
+        Link="/Content/security/PGP_Mode/Generating_a_Key_Pair.htm" />
+      <TocEntry
+        Title="Editing PGP Keys"
+        Link="/Content/security/PGP_Mode/Editing_PGP_Keys.htm" />
+      <TocEntry
+        Title="Enabling PGP Mode for a Site by Default"
+        Link="/Content/security/PGP_Mode/Enabling_PGP_Mode_for_a_Site_by_Default_.htm" />
+      <TocEntry
+        Title="Exporting PGP Keys"
+        Link="/Content/security/PGP_Mode/Exporting_PGP_Keys.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Using a NAT Firewall"
+      Link="/Content/security/Using_a_NAT_Firewall.htm" />
+    <TocEntry
+      Title="What is NAT?"
+      Link="/Content/security/What_is_NAT.htm" />
+    <TocEntry
+      Title="Certificates"
+      Link="/Content/security/Certificate.htm" />
+    <TocEntry
+      Title="Certificate Signing Request"
+      Link="/Content/security/Certificate_Signing_Request.htm" />
+    <TocEntry
+      Title="Client Certificate Verification"
+      Link="/Content/security/Client_Certificate_Verification.htm" />
+    <TocEntry
+      Title="Exporting a certificate"
+      Link="/Content/security/Exporting_a_certificate.htm" />
+    <TocEntry
+      Title="Importing a certificate"
+      Link="/Content/security/Importing_a_certificate.htm" />
+    <TocEntry
+      Title="Non-Trusted Certificate"
+      Link="/Content/security/Non_Trusted_Certificate.htm" />
+    <TocEntry
+      Title="Removing a certificate"
+      Link="/Content/security/Removing_a_certificate.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Using the Transfer Manager"
+    Link="/Content/transfermanager/transfer_window.htm">
+    <TocEntry
+      Title="Transfer Window"
+      Link="/Content/transfermanager/transfer_window.htm" />
+    <TocEntry
+      Title="Transfer History Tab"
+      Link="/Content/transfermanager/history_tab.htm" />
+    <TocEntry
+      Title="Transfer Manager Tab"
+      Link="/Content/transfermanager/transfer_tab.htm" />
+    <TocEntry
+      Title="Error Codes"
+      Link="/Content/transfermanager/error_codes.htm" />
+    <TocEntry
+      Title="Error Code Table"
+      Link="/Content/transfermanager/tm_errorcodes.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Frequent Questions"
+    Link="/Content/2getstarted/selecting_a_default_site.htm">
+    <TocEntry
+      Title="How do I select a default site?"
+      Link="/Content/2getstarted/selecting_a_default_site.htm" />
+    <TocEntry
+      Title="How do I make my eval version permanent?"
+      Link="http://support.ipswitch.com/kb/WS-19980116-JB01.htm" />
+    <TocEntry
+      Title="What is Active Edit, and how do I use it?"
+      Link="/Content/2getstarted/using_active_edit.htm" />
+    <TocEntry
+      Title="How do I make my website using WS_FTP Pro?"
+      Link="http://support.ipswitch.com/kb/WS-20021219-DM01.htm" />
+    <TocEntry
+      Title="How do I determine if I should use ASCII/Binary/or Auto Detect for transfers?"
+      Link="/Content/4transfers/working_with_transfer_modes.htm" />
+    <TocEntry
+      Title="What is the difference between SSH and SSL?"
+      Link="/Content/security/SSL_vs._SSH.htm" />
+    <TocEntry
+      Title="How do I make a backup of my WS_FTP Pro program?"
+      Link="http://support.ipswitch.com/kb/WS-19990212-CK01.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Online Resources"
+    Link="/Content/1intro/intro.htm" />
+  <TocEntry
+    Title="TroubleShooting">
+    <TocEntry
+      Title="Corrupted files"
+      Link="/Content/trouble/corrupted_files.htm"
+      MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Cannot connect to an FTP site"
+      Link="/Content/trouble/cannot_connect_to_an_ftp_site.htm"
+      MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Can connect only to IP Address"
+      Link="/Content/trouble/can_connect_only_to_ip_address.htm"
+      MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Connection closes before I'm done"
+      Link="/Content/trouble/connection_closes_before_i_m_done.htm"
+      MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Determining the Host Type"
+      Link="/Content/trouble/determining_the_host_type.htm"
+      MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="File list is missing, blank, or unreadable"
+      Link="/Content/trouble/file_list_is_missing_blank_or_unreadable.htm"
+      MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="MTDM Error Message"
+      Link="/Content/trouble/mtdm_error_message.htm"
+      MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Ipswitch Website"
+      Link="https://www.ipswitch.com" />
+  </TocEntry>
+</CatapultToc>

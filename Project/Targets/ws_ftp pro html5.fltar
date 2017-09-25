@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="WebHelp2"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  ConditionTagExpression="include[Primary.Pro] exclude[Primary.HOLD or Primary.PrintOnly] "
+  DefaultUrl="/Content/1intro/what_is_ws_ftp.htm"
+  Skin="/Project/Skins/ws_ftp_skin.flskn"
+  MasterToc="/Project/TOCs/ws_ftp.fltoc"
+  OutputFile="help.htm"
+  ReplaceSpacesWithUnderscores="true"
+  MakeFileLowerCase="true"
+  MasterPage="/Content/Resources/MasterPages/ws_ftp_masterpage.flmsp">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true" />
+  <Variables>
+    <Variable
+      Name="Primary/ProductName">WS_FTP Pro</Variable>
+  </Variables>
+  <Destinations>
+    <Destination
+      Link="/Project/Destinations/archive.fldes" />
+  </Destinations>
+</CatapultTarget>

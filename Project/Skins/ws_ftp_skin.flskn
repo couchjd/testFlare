@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultSkin
+  Version="2"
+  SkinType="WebHelp2"
+  Comment="HTML5 Default Tripane skin"
+  Anchors="Width,Height"
+  Width="800"
+  Height="600"
+  Top="0"
+  Left="0"
+  Bottom="0"
+  Right="0"
+  Tabs="TOC,Index,Glossary"
+  DefaultTab="TOC"
+  UseBrowserDefaultSize="true"
+  UseDefaultBrowserSetup="True"
+  EnableResponsiveOutput="True"
+  Title="WS_FTP Help"
+  AutoSyncTOC="true">
+  <Stylesheet>
+    <Resources>
+      <Resource
+        Name="ipswitch_logo.gif">H4sIAAAAAAAEAHP3dLOwTCxmkGM4wsDg4OCwf//+hISE+/fvCwgIvH//vqGh4fz58/PnzzcwMFi/fn1AQICCgkJ/f39BQcH///8ZSASKP1nAtA6IANnJwPpfQaUvJXNexqp1Oa/3FeicL8m9X7Hufc37/wcWFHjoSPWfWFLkzsAw7YLMg48dUdmXX5Wefiu00l+otEdhglDjR2VHLRupRccOKzjZCDxyj1gid9mTiT2LSTVBuc2qo52fPZOfT6WPkblKpYxZacoMgbxqgS4BRsYm/kUtykUhS+q7qxeYr09gaVojMIWViYUvRzmSmzuZgYl/9lq1SDWeVWkCTMu7+fwi522YWsl2sCGZlfeM8hSushAOruLWayonVC9r1d7sfFFTxcg1j0eA4dFSVb6sX/zfPwUcdn8qMTVd/c7eTYLa9zpY2ecJLFiS2mIUKv59rvSKPhZGLdZDOgYCAfO023lkg/WmhDcozRF6KifQ1XlhycGuW79ENp80bteIU65blPGgLWJte8gZHu0HuhkNswQusDgwOjheZOT24hBVzFowfX3C4S5Z721rbm7OuLwq9vS2tbe3FyS3MDBYAwDGKwXO1gEAAA==</Resource>
+    </Resources>
+    <Styles>
+      <Style
+        Name="Logo">
+        <Properties>
+          <Property
+            Name="BackgroundImage">url('ipswitch_logo.gif')</Property>
+          <Property
+            Name="AltText">WS_FTP Logo</Property>
+        </Properties>
+      </Style>
+    </Styles>
+  </Stylesheet>
+  <Strings>
+    <Stylesheet
+      lang="en-us">
+      <Stylesheet>
+        <Resources>
+          <Resource
+            Name="ipswitch_logo.gif">H4sIAAAAAAAEAHP3dLOwTCxmkGM4wsDg4OCwf//+hISE+/fvCwgIvH//vqGh4fz58/PnzzcwMFi/fn1AQICCgkJ/f39BQcH///8ZSASKP1nAtA6IANnJwPpfQaUvJXNexqp1Oa/3FeicL8m9X7Hufc37/wcWFHjoSPWfWFLkzsAw7YLMg48dUdmXX5Wefiu00l+otEdhglDjR2VHLRupRccOKzjZCDxyj1gid9mTiT2LSTVBuc2qo52fPZOfT6WPkblKpYxZacoMgbxqgS4BRsYm/kUtykUhS+q7qxeYr09gaVojMIWViYUvRzmSmzuZgYl/9lq1SDWeVWkCTMu7+fwi522YWsl2sCGZlfeM8hSushAOruLWayonVC9r1d7sfFFTxcg1j0eA4dFSVb6sX/zfPwUcdn8qMTVd/c7eTYLa9zpY2ecJLFiS2mIUKv59rvSKPhZGLdZDOgYCAfO023lkg/WmhDcozRF6KifQ1XlhycGuW79ENp80bteIU65blPGgLWJte8gZHu0HuhkNswQusDgwOjheZOT24hBVzFowfX3C4S5Z721rbm7OuLwq9vS2tbe3FyS3MDBYAwDGKwXO1gEAAA==</Resource>
+        </Resources>
+        <Styles>
+          <Style
+            Name="Logo">
+            <Properties>
+              <Property
+                Name="BackgroundImage">url('ipswitch_logo.gif')</Property>
+              <Property
+                Name="AltText">WS_FTP Logo</Property>
+            </Properties>
+          </Style>
+        </Styles>
+      </Stylesheet>
+    </Stylesheet>
+  </Strings>
+</CatapultSkin>

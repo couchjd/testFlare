@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:timeEstimate="-1" MadCap:priority="-1" MadCap:status="In Progress">
+    <head><title>How to make an SSL connection</title>
+        <link rel="StyleSheet" href="../Resources/Stylesheets/styles.css" />
+    </head>
+    <body>
+        <h1 value="Copyright 2000 Ipswitch, Inc.">
+            <MadCap:keyword term="SSL;How to make an SSL connection" />How to make an SSL connection</h1>
+        <p class="Topic-Text-Indent">To make an SSL connection with a server you 
+ have an account on:</p>
+        <ol>
+            <li class="p-Topic-Text-Numbered">
+                <p class="Topic-Text-Numbered">Follow 
+ the directions for <a href="..\2getstarted\configuring_a_new_ftp_site.htm">configuring 
+ a site</a>, being sure to enable SSL by selecting <span style="font-weight: bold;">FTP/SSL</span> 
+ or <span style="font-weight: bold;">FTP/Implicit SSL </span><span style="font-weight: bold;">Server 
+ type</span>.</p>
+            </li>
+            <li class="p-Topic-Text-Numbered">
+                <p class="Topic-Text-Numbered">Once you 
+ click <span style="font-weight: bold;">Connect</span>, WS_FTP 'tells' 
+ the server that you want to make an SSL connection. The server then transmits 
+ to you an identifying certificate, letting the client know who the server 
+ is. If that certificate is already listed in your Trusted Authority database, 
+ the connection will be made.</p>
+            </li>
+            <li class="p-Topic-Text-Numbered">
+                <p class="Topic-Text-Numbered">If that 
+ certificate is not listed as a trusted authority, the Non-Trusted Authority 
+ window will appear.</p>
+            </li>
+            <li class="p-Topic-Text-Numbered">
+                <p class="Topic-Text-Numbered">Select 
+ the option you need and click <span style="font-weight: bold;">OK.</span> 
+ If the server does not require a certificate to be returned, the secure 
+ connection will be established. All data transmitted between you and the 
+ server will be encrypted.</p>
+            </li>
+        </ol>
+        <p class="Topic-Text-Numbered" style="margin-left: 13.5pt;margin-bottom: 0;">If 
+ you are attempting to make a connection to a server which asks WS_FTP 
+ to send back a certificate, follow the directions for <a href="Client_Certificate_Verification.htm">Client 
+ Certificate Verification</a>.</p>
+        <p class="Topic-Text-Numbered" style="margin-left: 13.5pt;margin-bottom: 0;">&#160;</p>
+    </body>
+</html>

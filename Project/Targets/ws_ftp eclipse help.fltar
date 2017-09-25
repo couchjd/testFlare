@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="EclipseHelp"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/ws_ftp.fltoc"
+  ConditionTagExpression="exclude[Primary.HOLD or Primary.PrintOnly] "
+  MakeFileLowerCase="true"
+  ReplaceSpacesWithUnderscores="true"
+  MasterPage="/Content/Resources/MasterPages/ws_ftp_masterpage.flmsp">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true" />
+</CatapultTarget>

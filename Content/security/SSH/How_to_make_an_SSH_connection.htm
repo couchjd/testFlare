@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:timeEstimate="0" MadCap:priority="0" MadCap:status="In Progress" MadCap:lastBlockDepth="5" MadCap:lastHeight="379" MadCap:lastWidth="868">
+    <head><title>Making an SSH connection</title>
+        <link rel="StyleSheet" href="../../Resources/Stylesheets/styles.css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="SSH" />Making an SSH connection</h1>
+        <p>Making an SSH connection requires little additional configuration to 
+ new or your existing site profiles.</p>
+        <p>When creating a new site profile through the New Site Wizard, simply 
+ change the Server Type to SFTP/SSH when prompted by the wizard.</p>
+        <p style="font-weight: bold;">If editing an existing site profile:</p>
+        <ol style="list-style: decimal;list-style-type: decimal;">
+            <li class="p-Topic-Text-Numbered">
+                <p class="Topic-Text-Numbered">In the 
+ toolbar, click <span style="font-weight: bold;">Connect</span> to open<span style="font-weight: bold;"> <![CDATA[ ]]></span>the Site Manager.</p>
+            </li>
+            <li class="p-Topic-Text-Numbered">
+                <p class="Topic-Text-Numbered">Select 
+ the site from the configured sites list, then click <span style="font-weight: bold;">Edit</span>. 
+ The Site Options dialog appears.</p>
+            </li>
+            <li class="p-Topic-Text-Numbered">
+                <p class="Topic-Text-Numbered">Select 
+ <span style="font-weight: bold;">Advanced. &#160;</span></p>
+            </li>
+            <li class="p-Topic-Text-Numbered">
+                <p class="Topic-Text-Numbered">In <span style="font-weight: bold;">Server type</span>, select SFTP/SSH. Click 
+ <span style="font-weight: bold;">OK</span>.&#160;</p>
+            </li>
+            <li class="p-Topic-Text-Numbered">
+                <p class="Topic-Text-Numbered">Select 
+ an authentication method:</p>
+            </li>
+            <ul>
+                <li style="list-style: disc;" type="disc" class="p-Topic-Text-Numbered">
+                    <p class="Topic-Text-Numbered"><span style="font-weight: bold;">Password - 
+ </span>If your server uses password authentication, then setup is complete. 
+ The next time you log onto this site, SSH will 
+ be used to secure the connection.&#160;</p>
+                </li>
+                <li style="list-style: disc;" type="disc" class="p-Topic-Text-Numbered">
+                    <p class="Topic-Text-Numbered"><span style="font-weight: bold;">Public Key 
+ - </span>If your server uses public key authentication, select <span style="font-weight: bold;">Advanced 
+ &gt; SSH</span>. Select the correct key pair from<span style="font-weight: bold;"> SSH Keypair</span>.<span style="font-weight: bold;"> 
+ &#160;</span>If no key pairs are available, you can <a href="Generating_an_SSH_Key_Pair.htm">create</a> one.&#160;</p>
+                </li>
+            </ul>
+            <li class="p-Topic-Text-Numbered">
+                <p class="Topic-Text-Numbered">Click 
+ <span style="font-weight: bold;">OK </span>to close the Site Options dialog.</p>
+            </li>
+            <li class="p-Topic-Text-Numbered">
+                <p class="Topic-Text-Numbered"><span>Click 
+ </span><span style="font-weight: bold;">Close </span><span>to 
+ close the Site Manager dialog.&#160;</span>
+                </p>
+            </li>
+        </ol>
+        <p>When you use that profile to make a connection, the client will automatically 
+ attempt to make an SFTP/SSH connection on port 22 of that server.</p>
+        <p>Use the SSH 
+ Options dialog to select which Ciphers/MAC to be used with an SSH 
+ connection.</p>
+        <p>&#160;</p>
+        <p>
+            <MadCap:relatedTopics class="relatedTopics_1">
+                <MadCap:relatedTopic src="Exporting_an_SSH_Key.htm" />
+                <MadCap:relatedTopic src="Generating_an_SSH_Key_Pair.htm" />
+                <MadCap:relatedTopic src="SSH_Trusted_Hosts.htm" />
+                <MadCap:relatedTopic src="What_is_SSH_.htm" />
+            </MadCap:relatedTopics>
+        </p>
+    </body>
+</html>

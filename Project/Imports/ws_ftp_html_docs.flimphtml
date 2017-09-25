@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HtmlImport
+  KeepSourceLinks="true"
+  Topics="specific"
+  ImportResources="true"
+  SourceFolders=""
+  ImportResourcesLocation="RelativeToDocument"
+  ImportTopics="specific"
+  ImportTopicsLocation="Content/1intro/"
+  ImportLinkedHtmlFiles="false"
+  LastImport="2017-09-21T11:20:31.8107733-07:00"
+  ResourceFolder="file:///C:/Users/jeffrey.couch/Documents/FlareStudent/ws_ftp/Content/1intro/">
+  <Files>
+    <Url
+      Source="../../../files/ws_ftp_interfaces_and_operating_systems.htm"
+      AbsoluteSource="file:///C:/Users/jeffrey.couch/Documents/FlareStudent/files/ws_ftp_interfaces_and_operating_systems.htm" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/1intro/ws_ftp_interfaces_and_operating_systems.htm"
+      TimeStamp="9/21/2017 11:20:26 AM" />
+    <Url
+      Source="../TOCs/ws_ftp_html_docs.fltoc"
+      TimeStamp="9/21/2017 11:20:31 AM" />
+  </GeneratedFiles>
+</HtmlImport>

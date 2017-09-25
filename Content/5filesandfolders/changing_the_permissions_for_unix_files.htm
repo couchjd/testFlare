@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:timeEstimate="0" MadCap:priority="0" MadCap:status="Complete">
+    <head>
+        <meta name="copyright" value="Copyright 2000 Ipswitch, Inc." /><title>Changing the permissions for UNIX files</title>
+        <link rel="StyleSheet" href="../Resources/Stylesheets/styles.css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="UNIX FTP sites;permissions" />Changing the permissions for UNIX files</h1>
+        <p><span style="color: #000000;">You can change modes for 
+ a UNIX file on an FTP site, provided you have permission. </span>
+        </p>
+        <ol>
+            <li style="font-size: 8pt;" class="p-Topic-Text-Numbered">
+                <p class="Topic-Text-Numbered">Select 
+ the file.</p>
+            </li>
+            <li style="font-size: 8pt;" class="p-Topic-Text-Numbered">
+                <p class="Topic-Text-Numbered">From 
+ the right mouse menu select <span style="font-weight: bold;">Properties</span>. 
+ The permissions areas appear at the bottom of the 
+ <span style="font-weight: bold;">Properties </span><span>dialog. 
+ If the file is not on a UNIX server, the fields 
+ will be blank.&#160;&#160;</span>&#160;</p>
+            </li>
+            <li style="font-size: 8pt;" class="p-Topic-Text-Numbered">
+                <p class="Topic-Text-Numbered">Set 
+ any of the options and click the <span style="font-weight: bold;">OK</span> 
+ button.</p>
+            </li>
+        </ol>
+        <p class="Tip-Note-Heading">Background Information</p>
+        <p>Permissions can also be expressed as three-digit values; for example, 
+ 751. The first digit expresses Owner permissions; the second, Group permissions; 
+ the third, Other. </p>
+        <p>Three-digit values are used in the WS_FTP log, in the message area, 
+ and by some system administrators and ISPs. </p>
+        <p>The table below shows how WS_FTP options correspond to each digit. The 
+ third column shows the possible values for Owner, Group, and Other as 
+ viewed in the ten-position value in the first column of a directory list 
+ for a UNIX site.</p>
+        <p style="margin-top: 0;margin-bottom: 0;">&#160;</p>
+        <table style="width: 328px;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="328">
+            <tr valign="top">
+                <td style="width: 136px;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" width="136px">
+                    <p><span style="font-weight: bold;">WS_FTP Options</span>
+                    </p>
+                </td>
+                <td style="width: 96px;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" width="96px">
+                    <p><span style="font-weight: bold;">1</span><span style="font-weight: bold;"><span style="vertical-align: super;">st</span></span><span style="font-weight: bold;">, 
+ 2</span><span style="font-weight: bold;"><span style="vertical-align: super;">nd</span></span><span style="font-weight: bold;">, or 3</span><span style="font-weight: bold;"><span style="vertical-align: super;">rd</span></span><span style="font-weight: bold;"> 
+ digit of 3-digit no.</span>
+                    </p>
+                </td>
+                <td style="width: 96px;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" width="96px">
+                    <p><span style="font-weight: bold;">Permissions in dir list</span>
+                    </p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td style="width: 136px;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" width="136px">
+                    <p>none</p>
+                </td>
+                <td style="width: 96px;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" width="96px">
+                    <p>0</p>
+                </td>
+                <td style="width: 96px;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" width="96px">
+                    <p>---</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td style="width: 136px;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" width="136px">
+                    <p>Execute</p>
+                </td>
+                <td style="width: 96px;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" width="96px">
+                    <p>1</p>
+                </td>
+                <td style="width: 96px;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" width="96px">
+                    <p>--x</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td style="width: 136px;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" width="136px">
+                    <p>Write</p>
+                </td>
+                <td style="width: 96px;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" width="96px">
+                    <p>2</p>
+                </td>
+                <td style="width: 96px;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" width="96px">
+                    <p>-w-</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td style="width: 136px;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" width="136px">
+                    <p>Write, Execute</p>
+                </td>
+                <td style="width: 96px;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" width="96px">
+                    <p>3</p>
+                </td>
+                <td style="width: 96px;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" width="96px">
+                    <p>-wx</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td style="width: 136px;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" width="136px">
+                    <p>Read</p>
+                </td>
+                <td style="width: 96px;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" width="96px">
+                    <p>4</p>
+                </td>
+                <td style="width: 96px;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" width="96px">
+                    <p>r--</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td style="width: 136px;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" width="136px">
+                    <p>Read, Execute</p>
+                </td>
+                <td style="width: 96px;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" width="96px">
+                    <p>5</p>
+                </td>
+                <td style="width: 96px;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" width="96px">
+                    <p>r-x</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td style="width: 136px;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" width="136px">
+                    <p>Read, Write</p>
+                </td>
+                <td style="width: 96px;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" width="96px">
+                    <p>6</p>
+                </td>
+                <td style="width: 96px;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" width="96px">
+                    <p>rw-</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td style="width: 136px;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" width="136px">
+                    <p>Read, Write, Execute</p>
+                </td>
+                <td style="width: 96px;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" width="96px">
+                    <p>7</p>
+                </td>
+                <td style="width: 96px;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" width="96px">
+                    <p>rwx</p>
+                </td>
+            </tr>
+        </table>
+        <p style="margin-top: 0;margin-bottom: 0;">&#160;</p>
+        <p>Therefore, the permission described as 751 would appear in a directory 
+ listing as a ten-position code, drwxr-x&amp;emdash;x, where:</p>
+        <ul>
+            <li style="font-size: 8pt;" class="p-Topic-Text-Bulleted">
+                <p class="Topic-Text-Bulleted">the 
+ first position, d, indicates whether item is a file (-) or directory (d)</p>
+            </li>
+            <li style="font-size: 8pt;" class="p-Topic-Text-Bulleted">
+                <p class="Topic-Text-Bulleted">positions 
+ 2-4 (rwx) indicate Owner permissions: read, write, execute</p>
+            </li>
+            <li style="font-size: 8pt;" class="p-Topic-Text-Bulleted">
+                <p class="Topic-Text-Bulleted">positions 
+ 5-7 (r-x) indicate Group permissions: read and execute.</p>
+            </li>
+            <li style="font-size: 8pt;" class="p-Topic-Text-Bulleted">
+                <p class="Topic-Text-Bulleted">positions 
+ 8-10 (--x) indicate Other permissions: execute only.</p>
+            </li>
+        </ul>
+        <p>Note that if you attempt to change permissions, you will need to check 
+ the message area or the log to see if you were successful.</p>
+    </body>
+</html>

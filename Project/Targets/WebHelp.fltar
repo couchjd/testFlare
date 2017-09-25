@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  DefaultUrl="/Content/1intro/intro.htm"
+  OutputFile="ws_ftp.htm"
+  Type="WebHelp"
+  MasterToc="/Project/TOCs/ws_ftp.fltoc"
+  GlossaryTermConversion="first"
+  MasterPage="/Content/Resources/MasterPages/ws_ftp_masterpage.flmsp"
+  ConditionTagExpression="include[Primary.PrintOnly] exclude[Primary.HOLD or Primary.Pro] ">
+  <Variables />
+  <ConditionTags />
+</CatapultTarget>

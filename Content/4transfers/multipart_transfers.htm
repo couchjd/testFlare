@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Primary.HOLD" MadCap:id="Multipart Transfers" MadCap:timeEstimate="0" MadCap:priority="0" MadCap:check_list="Reviewed" MadCap:status="Ready for Review" MadCap:lastBlockDepth="4" MadCap:lastHeight="503" MadCap:lastWidth="1131">
+    <head><title>Speeding Up Large Transfers (Multipart Transfers)</title>
+        <link rel="StyleSheet" href="../Resources/Stylesheets/styles.css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="large files:speeding up" />
+            <MadCap:keyword term="transfers:speeding up large" />
+            <MadCap:keyword term="large transfers" />
+            <MadCap:keyword term="Multipart Mode" />Speeding up Large Transfers (Multipart Mode)</h1>
+        <p>Large files, such as an architect’s blueprint or a software executable, 
+ can take longer to transfer. If you regularly transfer large files, you 
+ can use Multipart mode to speed up the transfer. </p>
+        <p>When in Multipart mode, WS_FTP splits large files into smaller segments, 
+ and downloads all segments via different, yet concurrent, connections. 
+ This decreases the total download time for large individual files. </p>
+        <p>The number of connections that WS_FTP uses is determined by:</p>
+        <ul style="list-style: disc;" type="disc">
+            <li class="p-Topic-Text-Bulleted">
+                <p class="Topic-Text-Bulleted">the number 
+ of additional connections specified in the Site: Transfer options </p>
+            </li>
+            <li class="p-Topic-Text-Bulleted">
+                <p class="Topic-Text-Bulleted">the number 
+ of connections allowed by the server</p>
+            </li>
+        </ul>
+        <p>The <span style="font-weight: bold;">Transfer Manager</span> displays 
+ the file, the number of segments that the file has been divided into, 
+ and the status of the transfer of each of the segments. When each of the 
+ segments are complete, the Transfer Manager shows the status of re-combining 
+ the segments into one file, if that process takes longer than 2 seconds.</p>
+        <p>If there are no segments listed under the file being downloaded, then 
+ the file is not large enough to be divided. </p>
+        <p class="Note"><span style="font-weight: bold;">Note: </span><span>Multipart works 
+ with download files only. It does not work with SSH connections.</span>
+        </p>
+        <p>&#160;</p>
+        <p>&#160;</p>
+    </body>
+</html>

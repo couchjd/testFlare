@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultProjectImport
+  AutoSync="true"
+  DeleteStale="true"
+  DeleteUnreferenced="true"
+  IncludePattern="*.css"
+  LastImport="2017-09-25T11:42:02.1732569-07:00">
+  <Files>
+    <Url
+      Source="file:///C:/Users/jeffrey.couch/Documents/FlareStudent/ipswitch/ipswitch.flprj"
+      AbsoluteSource="file:///C:/Users/jeffrey.couch/Documents/FlareStudent/ipswitch/ipswitch.flprj" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles>
+    <Url
+      Source="../../../ipswitch/Content/Resources/Stylesheets/ipswitch_styles.css"
+      AbsoluteSource="file:///C:/Users/jeffrey.couch/Documents/FlareStudent/ipswitch/Content/Resources/Stylesheets/ipswitch_styles.css" />
+  </CollectedSourceFiles>
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Resources/Stylesheets/ipswitch_styles.css"
+      TimeStamp="3/13/2015 9:35:27 AM" />
+  </GeneratedFiles>
+</CatapultProjectImport>

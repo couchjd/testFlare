@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultConditionTagSet>
+  <ConditionTag
+    Name="HOLD"
+    BackgroundColor="#ff0000" />
+  <ConditionTag
+    Name="Pro"
+    BackgroundColor="#0000ff" />
+  <ConditionTag
+    BackgroundColor="#008000"
+    Name="PrintOnly"
+    Comment="" />
+</CatapultConditionTagSet>

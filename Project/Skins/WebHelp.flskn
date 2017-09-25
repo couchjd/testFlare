@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultSkin
+  Version="1"
+  Title="Ipswitch WS_FTP Home Help"
+  Top="1%"
+  Left="19%"
+  Width="79%"
+  Height="95%"
+  Tabs="TOC,Index,Search,Glossary"
+  UseBrowserDefaultSize="true">
+  <Toc
+    LinesBetweenItems="true"
+    LinesFromRoot="false"
+    SingleClick="false"
+    PlusMinusSquares="true"
+    AlwaysShowSelection="true"
+    FontFamily="Arial"
+    FontSize="8"
+    UseFolderIcons="false"
+    ImageListWidth=""
+    BinaryStorage="false" />
+  <Index
+    FontFamily="Arial"
+    FontSize="8" />
+  <Stylesheet />
+  <HtmlHelpOptions
+    Buttons="Hide,Locate,Back,Forward,Stop,Refresh,Home,Font,Print,Next,Previous,Options,Jump1,Jump2" />
+</CatapultSkin>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultGlossary>
+  <GlossaryEntry
+    glossTerm="ws_ftp.Term0"
+    TermClass="Popup"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Upload</Term>
+    </Terms>
+    <Definition
+      Link="">Transferring a file from your computer to an FTP site.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="ws_ftp.Term1"
+    TermClass="Popup"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Account</Term>
+    </Terms>
+    <Definition
+      Link="">Authenticates the user and prevents unauthorized access.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="ws_ftp.Term2"
+    TermClass="Popup"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Download</Term>
+    </Terms>
+    <Definition
+      Link="">Transferring a file from an FTP site to your computer.</Definition>
+  </GlossaryEntry>
+</CatapultGlossary>

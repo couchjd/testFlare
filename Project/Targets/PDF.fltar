@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  DefaultUrl="/Content/1intro/intro.htm"
+  Type="PDF"
+  MasterToc="/Project/TOCs/ws_ftp.fltoc"
+  GlossaryTermConversion="marked">
+  <Variables />
+  <ConditionTags />
+</CatapultTarget>

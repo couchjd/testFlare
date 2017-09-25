@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:timeEstimate="0" MadCap:priority="0" MadCap:status="In Progress">
+    <head>
+        <meta name="copyright" /><title>Client Certificate Verification</title>
+        <link rel="StyleSheet" href="../Resources/Stylesheets/styles.css" />
+    </head>
+    <body>
+        <h1 value="© Ipswitch, Inc.  All rights reserved.">Client Certificate Verification</h1>
+        <p>If the server you are attempting to make a connection to requires your 
+ client to send a certificate back to the server, you must:</p>
+        <ol>
+            <li class="p-Topic-Text-Numbered">
+                <p class="Topic-Text-Numbered">Configure 
+ the site with the <span style="font-weight: bold;">FTP/SSL </span>or <span style="font-weight: bold;">FTP/Implicit SSL </span>server type.</p>
+            </li>
+            <li class="p-Topic-Text-Numbered">
+                <p class="Topic-Text-Numbered">Create 
+ a certificate.</p>
+            </li>
+            <li class="p-Topic-Text-Numbered">
+                <p class="Topic-Text-Numbered">Send the 
+ certificate signing request file to your server administrator.</p>
+            </li>
+            <li class="p-Topic-Text-Numbered">
+                <p class="Topic-Text-Numbered">Once the 
+ server administrator signs your certificate signing request, a certificate 
+ file will be sent back to you.</p>
+            </li>
+            <li class="p-Topic-Text-Numbered">
+                <p class="Topic-Text-Numbered">When you 
+ receive the file, you need to import the signed certificate file.</p>
+            </li>
+            <ol>
+                <li class="p-Topic-Text-Numbered">
+                    <p class="Topic-Text-Numbered">From 
+ <span style="font-weight: bold;">Program Options</span>, select <span style="font-weight: bold;">SSL &gt; Client Certificates</span>.</p>
+                </li>
+                <li class="p-Topic-Text-Numbered">
+                    <p class="Topic-Text-Numbered">Click 
+ the Import button to start the Import Wizard.</p>
+                </li>
+                <li class="p-Topic-Text-Numbered">
+                    <p class="Topic-Text-Numbered">When 
+ prompted for the <span style="font-weight: bold;">Certificate File</span>, 
+ provide the path to the signed certificate file you received from the 
+ server administrator.</p>
+                </li>
+                <li class="p-Topic-Text-Numbered">
+                    <p class="Topic-Text-Numbered">When 
+ prompted for the <span style="font-weight: bold;">Private Key File</span>, 
+ provide the path to the private key file of the certificate that you originally 
+ created.</p>
+                </li>
+                <li class="p-Topic-Text-Numbered">
+                    <p class="Topic-Text-Numbered">When 
+ prompted for the <span style="font-weight: bold;">Certificate Name</span>, 
+ provide a new name for the certificate that you created that signifies 
+ that the certificate has been signed by the server administrator.</p>
+                </li>
+            </ol>
+            <li class="p-Topic-Text-Numbered">
+                <p class="Topic-Text-Numbered">Select 
+ the newly imported certificate in Client Certificate drop down on the 
+ site's SSL page.</p>
+            </li>
+            <ol>
+                <li class="p-Topic-Text-Numbered">
+                    <p class="Topic-Text-Numbered">Select 
+ the site in the <span style="font-weight: bold;">Site Manager</span>.</p>
+                </li>
+                <li class="p-Topic-Text-Numbered">
+                    <p class="Topic-Text-Numbered">Click 
+ the E<span style="font-weight: bold;">dit</span> button.</p>
+                </li>
+                <li class="p-Topic-Text-Numbered">
+                    <p class="Topic-Text-Numbered">Select 
+ <span style="font-weight: bold;">Advanced &gt; SSL</span>.</p>
+                </li>
+                <li class="p-Topic-Text-Numbered">
+                    <p class="Topic-Text-Numbered">Select 
+ your signed certificate in the <span style="font-weight: bold;">Client 
+ Certificate</span> list.</p>
+                </li>
+                <li class="p-Topic-Text-Numbered">
+                    <p class="Topic-Text-Numbered"><span>Click 
+ </span><span style="font-weight: bold;">Ok</span><span>.</span>
+                    </p>
+                </li>
+            </ol>
+            <li class="p-Topic-Text-Numbered">
+                <p class="Topic-Text-Numbered" style="margin-bottom: 0;">Connect 
+ to the server. </p>
+            </li>
+        </ol>
+    </body>
+</html>
